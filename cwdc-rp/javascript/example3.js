@@ -1,0 +1,13 @@
+var myArray = new Array();
+myArray[0] = "pizza";
+myArray[1] = "chocolate";
+// console.log(myArray.length);
+var tweets = ["Morning everybody!", "I love coffee!"];
+// alert(tweets[1]);
+// document.write(tweets[1]);
+tweets.push("Back to Work!");
+// alert(tweets[2]);
+tweets.splice(1, 1);
+// console.log(tweets);
+tweets.splice(1, 0, "conflakes for breakfast!");
+console.log(tweets);
